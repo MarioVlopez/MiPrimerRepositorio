@@ -1,0 +1,35 @@
+p{
+    font-size: 20px;
+}
+
+.a{
+    text-align: left;
+}
+img.a{
+    vertical-align: baseline;
+}
+
+.b{
+    text-align: center;
+}
+img.b{
+    vertical-align: text-top;
+}
+
+.c{
+    text-align: right;
+}
+img.c{
+    vertical-align: text-bottom;
+}
+
+.d{
+    text-align: justify;
+}
+img.d{
+    vertical-align: sub;
+}
+
+img.e{
+    vertical-align: super;
+}

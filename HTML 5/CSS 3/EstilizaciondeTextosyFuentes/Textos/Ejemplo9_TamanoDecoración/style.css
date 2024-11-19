@@ -1,0 +1,19 @@
+div.a p {
+    text-decoration-thickness: 5px;
+}
+div.b p {
+    text-decoration-thickness: 10px;
+}
+div.c p {
+    text-decoration-thickness: 5%;
+}
+div.d p {
+    text-decoration-thickness: 10%;
+}
+p {
+    text-decoration-line: underline;
+}
+div {
+    margin: 20px;
+    padding: 20px;
+}

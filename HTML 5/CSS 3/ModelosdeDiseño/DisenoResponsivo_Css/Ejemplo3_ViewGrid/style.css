@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.header{
+    border: 1px solid tomato;
+    padding: 15px;
+    background-color: lightcoral;
+    color: beige;
+}
+
+.row ul {
+    margin: 5px;
+    margin-left: -29px;
+}
+.row li{
+    padding: 10px;
+    margin: 5px;
+    background-color: tomato;
+    border-radius: 8px;
+    color: rgb(255, 208, 198);
+
+}
+.row li:hover
+{
+    background-color: rgb(198, 188, 188);
+    color: tomato;
+}
+[class*="col-"]{
+    float: left;
+    padding: 15px;
+    border: 1px solid tomato;
+    border-radius: 5px;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 8.33%;
+}
+.col-3 {
+    width: 25%;
+    background-color: rgb(255, 208, 198);
+    
+}
+
+.col-4 {
+    width: 8.33%;
+}
+.col-5 {
+    width: 8.33%;
+}
+.col-6 {
+    width: 8.33%;
+}
+.col-7 {
+    width: 8.33%;
+}
+.col-8 {
+    width: 8.33%;
+}
+.col-9 {
+    width: 75%;
+    color: tomato;
+    text-align: justify;
+}
+.col-10 {
+    width: 8.33%;
+}
+.col-11 {
+    width: 8.33%;
+}
+.col-12 {
+    width: 8.33%;
+}
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

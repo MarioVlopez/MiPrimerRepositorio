@@ -1,0 +1,7 @@
+#rtl{
+    direction: ltr; unicode-bidi: bidi-override;
+}
+
+#ltr{
+    direction: rtl; unicode-bidi: normal;
+}

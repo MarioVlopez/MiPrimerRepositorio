@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pixeles {
+    font-size: 16px;
+}
+
+.em {
+    font-size: 2em;
+}
+
+.porcentaje {
+    font-size: 100%;
+}
+
+.viewport {
+    font-size: 10vw;
+}

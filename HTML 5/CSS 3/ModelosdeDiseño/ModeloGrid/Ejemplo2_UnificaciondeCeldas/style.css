@@ -1,0 +1,29 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#grid-column{
+    display: grid;
+    background-color: rgb(18, 231, 255);
+    gap: 40px 20px;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+
+}
+#grid-column > div{
+    background-color: rgba(0, 55, 128, 0.621);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+}
+#item1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}

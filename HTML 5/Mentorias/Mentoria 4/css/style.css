@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box  ;
+}
+body{
+    background-color: beige;
+}
+.banner{
+    background-image: url('../img/banner.jpg');
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%  250px;
+}
+
+.titulo_principal{
+    background-color: tomato;
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3em;
+}
+
+.contenido_principal{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.seccion_contenido{
+    background-color: white;
+    margin-top: 30px;
+    padding: 20px;
+    border-left: 3px solid #848484;
+    box-shadow: 0 4px 8px color sombra #848484;
+    /* primer valor sombra horizontal-segundo vertical-tercer valor difuminado (tamaños de la somra*/
+
+}
+
+.Titulo_contenido{
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.Formulario_contenido {
+
+}
+
+.grupo_formulario {
+
+}
+
+label {
+    color: black;
+
+}
+
+.campo_formulario {
+
+}
+
+.campo_formulario:focus {
+
+}
+
+.boton_formulario {
+
+}
+
+.boton_formulario:hover {
+
+}
+
+.boton_formulario:active {
+
+}
+
+
+.pie{
+    background-color: black;
+    padding: 10px;
+    width: 100%;
+    margin-top: 15px;
+    
+}
+
+.texto-pie{
+    color: white;
+    text-align: center; 
+}

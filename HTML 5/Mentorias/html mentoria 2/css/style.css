@@ -1,0 +1,88 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body{
+
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    display: block/*ocupa espacio en linea*/;
+}
+h1{
+    background-color: #35423a;/*COlor de fondo*/
+    color: #fff;
+    text-align: center;/*texto centrado*/
+    margin-bottom:  0.5cm;/*margen hacia abajo*/
+    padding: 20px 0px;/*espacion entre dos elementos*/
+    font-family: "Parisienne", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2{
+    font-size: 2cm;
+    color: #35424a;
+    margin-left: 5%;
+    padding:15px;
+    }
+
+p{
+    background-color: #fff;
+    border-left: 10px solid #35424a;
+    padding: 10px:
+    padding-left: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+    margin: 15px 0;
+}
+
+h3{
+    color: blue;
+    font-size: 1.5cm;
+    padding-left: 5%;
+    padding: 15px;
+}
+
+h4{
+    color: green;
+    font-size: 1.25 cm;
+    padding-left: 5%;
+    padding: 15px;
+}
+
+h5{
+    color: red;
+    font-size: 1.0 cm;
+    padding-left: 5%;
+    padding: 15px;
+}
+
+h6{
+    color: red;
+    font-size: 0.75 cm;
+    padding-left: 5%;
+    padding: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #35424a;
+    color: white;
+    position: relative;
+    bottom; 0;
+    width: 100%;
+    }
+
+    b{
+        color:#33ccff #33ccff;
+    }

@@ -1,0 +1,27 @@
+#flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: gray;
+    align-items: baseline;
+    width: 100%;
+}
+
+img{
+    width: 100%;
+    height: 40%;
+}
+
+figcaption{
+    font-size: 10px;
+}
+
+.imagenes {
+    background-color: rgb(150, 145, 145);
+    color: white;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid blue;
+    line-height: 75%;
+    font-size: 30px;    
+}

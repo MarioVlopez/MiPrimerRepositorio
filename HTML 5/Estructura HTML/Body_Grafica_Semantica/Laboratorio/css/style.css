@@ -1,0 +1,91 @@
+*{
+    margin: 0 auto; /*elimina todos los espacios hacia afuera*/
+    padding: 0 auto; /* elimina espacios hacia afuera*/
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(15, 15, 14);
+    background-color: aquamarine;
+}
+
+header{
+    background-color: red;
+    width: 100%;
+}
+
+header h1{
+    color: beige;
+    text-align: center;
+    padding: 25px; /*espaciado del h1*/
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font: weight -400px;
+    font-style: normal;
+}
+
+nav{
+    background: #BDE038;
+    width: 100;
+    justify-content: space-between;
+    display: flex;/*queda en una sola linea*/
+    padding: 15px;
+}
+nav a{
+    color: blueviolet;
+    text-decoration: none;
+    padding-left: 15px;
+}
+nav a: hover { /* se activa al pasar el cursor por encima*/
+    bacground: #A3AB78;
+    color: #506266;
+}
+
+main{
+    margin-top: 25%;
+    }
+
+article{
+    width: 80%;
+    float: left; /*posicion*/
+    }
+
+    article section{
+        display: justify;
+        text-align: justify;
+        padding: 20px;
+        margin-bottom: 20px; /*margen hacia abajo*/
+        background-color: antiquewhite;
+        border-bottom: #BDE038; /*color borde abajo*/
+        flex-wrap: wrap; /*para que se ajuste el contenido*/
+        border-radius: 9px; /*redondear los bordes*/
+        box-shadow: 0 20px 10px ;
+        width: 90%;
+         }
+
+    article section h2{
+        text-align: center; #3D3D3D 
+        color: #3D3D3D;
+        font-size: 1.4cm;
+    }
+
+    article section p{
+        padding-top: 10px;
+     }
+
+     article section img{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 20px;
+     }
+
+     section video{
+        width: 80%;
+     }
+
+     
+
+aside{
+    width: 20%;
+    float: right;
+}

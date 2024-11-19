@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas en HTML</title>
+    <link rel="stylesheet" href="css/style_tabla.css">
+</head>
+<body>
+    <header class="cabecera">
+        <h1>Tablas en HTML - CSS</h1>
+    </header>
+
+    <section class="contenido">
+        <p>En HTML, las tablas se definen mediante la etiqueta <strong>&lt;table&gt;</strong>, que actúa como contenedor principal. Dentro de <strong>&lt;table&gt;</strong>, se utilizan <strong>&lt;tr&gt;</strong> para crear filas y <strong>&lt;td&gt;</strong> para definir celdas de datos. Para encabezados de columna, se emplea la etiqueta <strong>&lt;th&gt;</strong>, que se muestra en negrita y centrada por defecto. La etiqueta <strong>&lt;thead&gt;</strong> se utiliza para agrupar el contenido de los encabezados de la tabla, mientras que <strong>&lt;tbody&gt;</strong> se usa para agrupar las filas de datos, facilitando la organización y estilización. También se puede usar <strong>&lt;tfoot&gt;</strong> para agrupar el contenido del pie de la tabla, lo que es útil para totales o resúmenes. Adicionalmente, se puede incluir la etiqueta <strong>&lt;caption&gt;</strong> para proporcionar un título descriptivo a la tabla, mejorando su accesibilidad y comprensión. Con estas etiquetas, se puede crear una estructura de tabla clara y semánticamente correcta.</p>
+    </section>
+
+    <section class="tabla contenido">
+        <h3>Tabla 1</h3>
+        <table>
+            <tr> <!--define fila en Tablas-->
+                <th>Nombre</th><!--Columnas encabezado de tabla-->
+                <th>Edad</th>
+                <th>Pais</th>
+                <th>Genero</th>
+            </tr>
+                <td>Ana Perez</td>
+                <td>25</td>
+                <td>Colombia</td>
+                <td>Femenino</td>
+            <tr>
+                <tr>
+                    <td>Juan López</td>
+                    <td>30</td>
+                    <td>Colombia</td>
+                    <td>Masculino</td>
+                </tr>
+            <tr>
+                <td>Maria Gonzales</td>
+                <td>22</td>
+                <td>Mexico</td>
+                <td>Femenino</td>
+            </tr>
+            </tr>
+        </table>
+    </section>
+
+<section class="tabla contenido">
+    <h3>Tabla 2</h3>
+    <table>
+        <caption>Ejemplo de tabla 2</caption><!--subtitulos para tablas-->
+        <thead><!--indicar que es encabezado de tabla-->
+            <tr>
+                <th>País</th>
+                <th>Capital</th>
+                <th>Moneda</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>España</td>
+                <td>Madrid</td>
+                <td>Euro</td>
+            </tr>
+            <tr>
+                <td>Dinamarca</td>
+                <td>Cophenhawer</td>
+                <td>Corona Danesa</td>
+            </tr>
+            <tr>
+                <td>Estados Unidos Mexicanos</td>
+                <td>Ciudad de Mexico</td>
+                <td>Peso Mexicano</td>
+            </tr>
+            <tr>
+                <td>Argentina</td>
+                <td>Buenos Aires</td>
+                <td>Peso Argentino</td>
+            </tr>
+        </tbody>
+
+    </table>
+</section>
+
+<footer class="pie">
+    <p>todos los derechos reservados<b>MarVal</b></p>
+</footer>
+    
+</body>
+</html>

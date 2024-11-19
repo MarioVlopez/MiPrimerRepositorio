@@ -1,0 +1,49 @@
+body {
+    background-color: white;
+    padding: 30px;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blueviolet;
+    text-align: center;
+    font-size: 100px;
+    border-bottom: 2px solid deepskyblue;
+}
+
+div{
+    text-align: center;
+}
+
+p {
+    font-family: Verdana;
+    color: rgb(88, 30, 97);
+    font-size: 20px;
+}
+#identificador{
+    border: 4px solid darkolivegreen;
+    padding: 20px;
+    border-radius: 10px;
+}
+img{
+    max-width: 50%;
+    height: auto;
+    margin: 20px;
+    border-radius: 10px;
+}
+img:hover{
+    transform: scale(1.05);
+}
+button{
+    display: block;
+    background-color: darkorange;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 30px;
+}
+button :hover{
+    background-color: brown;
+}

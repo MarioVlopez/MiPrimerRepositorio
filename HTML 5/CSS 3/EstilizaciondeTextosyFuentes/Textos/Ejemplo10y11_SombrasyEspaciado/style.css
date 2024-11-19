@@ -1,0 +1,22 @@
+#shad1{
+    text-shadow: 2px 2px blueviolet;
+}
+#shad2{
+    text-shadow: 2px 2px 8px #00ff00;
+}
+
+.p1{
+    text-indent: 50px;
+}
+.p2{
+    letter-spacing: 50px;
+}
+.p3{
+    line-height: 0.9;
+}
+.p4{
+    word-spacing: 10px;
+}
+.p5{
+    white-space: nowrap;
+}

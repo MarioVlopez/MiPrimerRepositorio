@@ -1,0 +1,12 @@
+#uno{
+    text-decoration-line: overline;
+}
+#dos{
+    text-decoration-line: line-through;
+}
+#tres{
+    text-decoration-line: underline;
+}
+#cuatro{
+    text-decoration-line: overline underline;
+}

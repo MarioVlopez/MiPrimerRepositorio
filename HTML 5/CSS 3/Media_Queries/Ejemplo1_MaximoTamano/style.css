@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="Med-"] {
+    float: left;
+    padding: 15px;
+}
+.med-1 {width: 100%;}
+.med-2 {width: 25%;}
+.med-12 {width: 71.66%;}
+
+.med-1{
+    padding: 15px;
+    background-color: rgb(221, 160, 221);
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+}
+.med-2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.med-2 li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: rgb(77, 37, 77);
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.med-2 li:hover {
+    background-color: rgb(115, 90, 138);
+}
+@media only screen and (max-width: 768px) {
+    
+    [class*="Med-"] {
+        width: 100%;
+    }
+}

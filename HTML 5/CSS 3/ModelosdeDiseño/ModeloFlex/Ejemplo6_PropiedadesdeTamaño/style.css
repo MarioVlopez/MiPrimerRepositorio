@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#flex-container {
+    display: flex;
+    background-color: aqua;
+}
+.grande {
+    flex: 2;
+}
+
+.mediana {
+    flex: 1;
+}
+
+img {
+    width: 100%;
+}
+
+figure {
+    align-content: center;
+}

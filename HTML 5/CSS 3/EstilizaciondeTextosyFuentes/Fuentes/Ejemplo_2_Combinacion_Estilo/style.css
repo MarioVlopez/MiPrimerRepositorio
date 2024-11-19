@@ -1,0 +1,33 @@
+.stylenormal {
+    font-style: normal;
+}
+
+.styleitalic {
+    font-style: italic;
+}
+
+.styleoblique {
+    font-style: oblique;
+}
+
+.weightnormal {
+    font-weight: normal;
+}
+
+.weightbold {
+    font-weight: bold;
+}
+
+.variantnormal {
+    font-variant: normal;
+}
+
+.variantcaps {
+    font-variant: small-caps;
+}
+
+div {
+    border: 1px solid black;
+    text-align: center;
+    width: 33%;
+}

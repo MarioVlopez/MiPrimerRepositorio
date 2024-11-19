@@ -1,0 +1,11 @@
+#flex-container {
+    display: flex;
+    background-color: aqua;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 500px;
+}
+img {
+    width: 200px;
+}

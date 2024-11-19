@@ -1,0 +1,15 @@
+div{
+    width: 100px;
+    height: 100px;
+    background: rgb(255, 187, 0);
+    animation-name: example;
+    animation-duration: 4s;
+    animation-direction: reverse;
+}
+@keyframes example{
+    0% {background-color: rgba(255, 0, 0, 0.397); left:0px; top:0px;}
+    25% {background-color: rgb(94, 94, 61); left:200px; top:0px;}
+    50% {background-color: blue; left:200px; top:200px;}
+    75% {background-color: rgb(169, 233, 169); left:0px; top:200px;}
+    100% {background-color: red; left:0px; top:0px;}
+}

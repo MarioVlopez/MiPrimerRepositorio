@@ -1,0 +1,24 @@
+h1,h2,h3{
+    width: 100%;
+    border: 2px;
+    padding: 2px;
+    margin: 2px;
+}
+
+h1{
+    border: solid rgb(0,0,0);
+    text-align: center;
+}
+
+h2{
+    border: solid #0816f3;
+    text-align: left;
+    direction: ltr;
+}
+
+h3{
+    border: 2px solid rgb(4,4,5);
+    text-align: right;
+    unicode-bidi: bidi-override;
+
+}

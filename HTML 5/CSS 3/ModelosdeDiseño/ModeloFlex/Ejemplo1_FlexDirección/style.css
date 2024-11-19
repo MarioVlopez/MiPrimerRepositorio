@@ -1,0 +1,18 @@
+#flex-container {
+    display: flex;
+    background-color: aqua;
+    padding: 20px;
+    align-items: baseline;
+    height: 400px;
+}
+img.grande {
+    width: 200px;
+}
+
+img.mediana {
+    width: 150px;
+}
+
+img.peque {
+    width: 100px;
+}
